@@ -84,108 +84,52 @@ This project has been deployed using Render.com
 #### For Backend/server
 * Web Service App
    
-Branch## Deployment
-bash
-
-  main
-This project has been deployed using Render.com
-
-#### For Backend/server
-Root directory
-* Web Service App
-
-   
-bash
 Branch
+```bash
+  main
+```
+Root directory
+
+```bash
   server
-bash
-
-  main
+```
 Build command
-
-bash
-Root directory
+```bash
   npm install
-
-
-bash
+```
 Start command
-  server
-bash
-
+```bash
   npm run start
-Build command
-
-bash
+```
 After this add .env variables to render and update the IP
-  npm install
 addresses in MongoDB.
+Deploy Server!
 
-Deploy Server!<br><br><br>
-Start command
-
-bash
-
-  npm run start
-
-
-
-After this add .env variables to render and update the IP
 #### For Frontend/client
-addresses in MongoDB.
 * Static site
-Deploy Server!<br><br><br>
 Branch
-
-bash
-
+```bash
   main
-
-
-
+```
 Root directory
-#### For Frontend/client
 
-* Static site
-bash
-Branch
+```bash
   client
-bash
-
-  main
+```
 Build command
-
-bash
-Root directory
+```bash
   yarn run build
-
-
-bash
+```
 Start command
-  client
-bash
-
+```bash
   build
-Build command
-
-bash
-
-  yarn run build
-After this add .env variables to render.
-
-Change the instances of backend link from client to the 
-Start command
-new provided link from deployed site from backend.
-bash
-Deploy client!
-  build
-
-
+```
 
 After this add .env variables to render.
 Change the instances of backend link from client to the 
 new provided link from deployed site from backend.
 Deploy client!
+
 
 
 
