@@ -80,13 +80,112 @@ https://hivehut-frontend.onrender.com
 
 ## Deployment
 
-This project has been deployed using render.
-For the separate files i.e. client and server, we make two different web services.
-For server we use web site deployment and for client we use static site 
-deployment.
-We upload the .env variables to the site and we give access to the IP addresses in 
-Mongo DB.
+This project has been deployed using Render.com
+#### For Backend/server
+* Web Service App
+   
+Branch## Deployment
+bash
 
+  main
+This project has been deployed using Render.com
+
+#### For Backend/server
+Root directory
+* Web Service App
+
+   
+bash
+Branch
+  server
+bash
+
+  main
+Build command
+
+bash
+Root directory
+  npm install
+
+
+bash
+Start command
+  server
+bash
+
+  npm run start
+Build command
+
+bash
+After this add .env variables to render and update the IP
+  npm install
+addresses in MongoDB.
+
+Deploy Server!<br><br><br>
+Start command
+
+bash
+
+  npm run start
+
+
+
+After this add .env variables to render and update the IP
+#### For Frontend/client
+addresses in MongoDB.
+* Static site
+Deploy Server!<br><br><br>
+Branch
+
+bash
+
+  main
+
+
+
+Root directory
+#### For Frontend/client
+
+* Static site
+bash
+Branch
+  client
+bash
+
+  main
+Build command
+
+bash
+Root directory
+  yarn run build
+
+
+bash
+Start command
+  client
+bash
+
+  build
+Build command
+
+bash
+
+  yarn run build
+After this add .env variables to render.
+
+Change the instances of backend link from client to the 
+Start command
+new provided link from deployed site from backend.
+bash
+Deploy client!
+  build
+
+
+
+After this add .env variables to render.
+Change the instances of backend link from client to the 
+new provided link from deployed site from backend.
+Deploy client!
 
 
 
